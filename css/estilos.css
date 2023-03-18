@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .links a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+ .precio{
+   display:block;
+   font-size:20px;
+ }
+
+#carrito{
+    width: 30%; 
+    background-color: black; 
+    height: 100vh;
+ }
+
+#carrito h2{
+  text-align: center;
+  color: white;
+ }
+  
+#listaProductos{
+
+  width: 70%;
+}
+
+#contenedorPadre{
+
+  display:flex;
+}
+
+.total_carrito{
+    color: white;
+}
+
+.mensaje {
+  text-align: center;
+}
+
+#cotizacion {
+  font-family: Arial, sans-serif;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.h2-cotizacion{
+  font-size: 20px;
+  text-align: center;
+}
+thead tr {
+  background-color: #333;
+  color: #fff;
+}
+
+th {
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+#dolar-blue {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
